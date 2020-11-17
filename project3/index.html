@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statistical Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<h2>Statistical Calculator</h2>
+	
+	<form name="statCal" action="" onsubmit="performStatistic(); return false;">
+		<p>
+			Enter 5 to 20 numbers between 0 and 100.</br>
+			Each Number should be seperated by a space.<br>
+			<textarea id="input" rows="2" cols="40" required></textarea></br>
+			<input class="button"type="reset" value="Reset">
+			<input class="button" type="submit" value="Submit"></br>
+		</p>
+		<p>
+			<label class="list">MIN: </label>
+			<input id = "min" type="text" name="min" readonly></br>
+			<label class="list">MAX: </label>
+			<input id="max" type="text" name="max" readonly></br>
+			<label class="list">SUM: </label>
+			<input id="sum" type="text" name="sum" readonly></br>
+			<label class="list">MEAN: </label>
+			<input id="mean" type="text" name="mean" readonly></br>
+			<label class="list">MEDIAN: </label>
+			<input id="median" type="text" name="median" readonly></br>
+			<label class="list">MODE: </label>
+			<input id="mode" type="text" name="mode" readonly></br>
+			<label class="list">VARIANCE: </label>
+			<input id="var" type="text" name="variance" readonly></br>
+			<label class="list">STD DEV: </label>
+			<input id="stddev" type="text" name="stddev" readonly></br>
+		</p>
+		
+	</form>
+		
+		<div class="navigation">
+			 <a href="../index.html">ePortfolio</a>
+		</div>
+</body>
+</html>

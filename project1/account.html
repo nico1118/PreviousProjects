@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/site.css">
+<title>Create an Account</title>
+</head>
+<body>
+<form action="https://unfinishedbusiness.app/alert.php" method="post">
+	<h2>Create an Account</h2>
+	First Name:<br>
+	<input type="text" name="firstname"><br>
+	Last Name:<br>
+	<input type="text" name="lastname"><br>
+	Email Address: <br>
+	<input type="email" name="email"><br><br>
+	Password:<br>
+	<input type="password" name="pword"><br>
+	Confirm Password:<br>
+	<input type="password" name="pword"><br><br>
+	Birth Date:<br>
+	<input type="date" name="bday" min="1970-1-1" max="2020-12-31" value="2015-10-21"><br><br>
+	Degree Track:<br>
+	<label class="rcontain"><input type="radio" name="track" value="CS"><span class="rad"></span><a href="https://www.unf.edu/ccec/computing/Computer_Science_Program.aspx" target="_blank">Computer Science</a></label><br>
+	<label class="rcontain"><input type="radio" name="track" value="Iscience"><span class="rad"></span><a href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx" target="_blank">Information Science</a></label><br>
+	<label class="rcontain"><input type="radio" name="track" value="Isystem"><span class="rad"></span><a href="https://www.unf.edu/ccec/computing/Information_Systems_Program.aspx" target="_blank">Information Systems</a></label><br>
+	<label class="rcontain"><input type="radio" name="track" value="IT"><span class="rad"></span><a href="https://www.unf.edu/ccec/computing/Information_Technology_Program.aspx" target="_blank">Information Technology</a></label><br><br>
+	Programming Language Experience:<br>
+	<table>
+	<tr>
+	<td><label class="ccontain"><input type="checkbox" name="lang1" value="C"><span class="check"></span><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang2" value="C#"><span class="check"></span><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang3" value="Java"><span class="check"></span><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang4" value="JavaScript"><span class="check"></span><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></label>
+	</td>
+	<td>
+	<label class="ccontain"><input type="checkbox" name="lang5" value="PHP"><span class="check"></span><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang6" value="Python"><span class="check"></span><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang7" value="Visual Basic"><span class="check"></span><a href="https://en.wikipedia.org/wiki/Visual_Basic" target="_blank">Visual Basic</a></label><br>
+	<label class="ccontain"><input type="checkbox" name="lang8" value="Other"><span class="check"></span>Other</label>
+	</td>
+	</tr>
+	</table>
+	<input type="reset"> <input type="submit" value="Submit">
+	<input type="hidden" name="username" value="505739627" />
+	<input type="hidden" name="to_email_address" value="n01398626@unf.edu" />
+	<input type="hidden" name="to_display_name" value="Nicolas Martinez" />
+	
+</form>
+	<div class="navigation"><a href="index.html">Personal Webpage</a> 
+			 <a href="../index.html">ePortfolio</a>
+		</div>
+</body>
+</html>

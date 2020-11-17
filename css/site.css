@@ -1,0 +1,278 @@
+div.main_header {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+span.main_header {
+	color: #ffffff;
+	font-size: 250%;
+}
+
+span.body_text {
+	font-size: 150%;
+}
+/*Styles for Personal */
+h2#AM {
+	color: blue;
+}
+
+h2#hobby {
+	color: green;
+}
+
+h2#school {
+	color: red;
+}
+
+
+a:hover.personal {
+	font-size: 150%;
+}
+
+li.high {
+	font-style: italic;
+}
+
+li.college {
+	font-weight: bold;
+}
+
+/*Styles for schedule*/
+tr.schedule {
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #e8f4f8;
+}
+
+th {
+	background-color: blue;
+	color: white;
+}
+
+ol.b {
+	list-style-type: upper-alpha;
+}
+
+/*Styles for Create Account*/
+
+/*Styles for radio*/
+.rcontain {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.rcontain input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.rad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 100%;
+
+}
+
+.rcontain input:checked ~.rad {
+	background-color: green;
+}
+
+/*Styles for checkbox*/ 
+.ccontain {
+	  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  padding-right: 24px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ccontain input {
+	  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.check {
+
+	  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.ccontain input:checked ~ .check {
+	background-color: blue;
+}
+
+/*Styles form PaymentForm*/
+h2#paymentTitle {
+	color: blue;
+}
+img.payType {
+	width: 64px;
+	height: 64px;
+}
+label.list {
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 110px;
+    text-align: right;
+}
+.input {
+  display: inline-block;
+  float: left;
+}	
+
+
+
+div.navigation {
+	clear: both;
+}
+/*Styles for Radio Buttons on Payment*/
+* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.checkmark1 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.checkmark2 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark1 {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark1 {
+  background-color: #32CD32;
+}
+
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark1:after {
+  display: block;
+}
+
+
+.container .checkmark1:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.container:hover input ~ .checkmark2 {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark2 {
+  background-color: #32CD32;
+}
+
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+
+.container .checkmark2:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/*Configurations for Project 3*/
+textarea#input {
+	margin :20px;
+
+}
+
+input.button {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
